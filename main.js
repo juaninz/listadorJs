@@ -3,7 +3,7 @@ const addTaskBtn = document.getElementById('addTask');
 const listTasks = document.getElementById('list-container');
 const deleteBtn = document.getElementById('deleteAll');
 // Creamos array vacio
-let tasks = [];
+let tasks = [1];
 
 //Funcion para recuperar datos del LocalStorage
 
