@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+    background: #131415;
+    font-family: 'Poppins';
+    background-color: #131415;
+    background-image: url("./images/fondo.jpg");
+  }
+
+  .section-container {
+    color: white;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .section-container h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    margin: 20px 0 30px 0;
+  }
+
+  .task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /* .tasks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  */
+
+  #input {
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: #131415;
+    width: 250px;
+  }
+
+  #addTask {
+  background: linear-gradient(45deg, #ff8d0c, #ff1153);
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+#deleteAll {
+margin-top: 1rem;
+  background: linear-gradient(45deg, #ff8d0c, #ff1153);
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.input-btn {
+    display: flex;
+    gap: 20px;
+  }
+  
+  li {
+    background: #2b2b2c;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .error {
+    background: #ff3333;
+    color: white;
+    padding: 2px 13px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 15px;
+  }
+  
+  .exists {
+    background: #ff8d0c;
+    color: white;
+    padding: 2px 13px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 15px;
+  }
+  
+  span {
+    background-color: #ff3333;
+    padding: 5px;
+    border-radius: 100px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  
+  span:hover {
+    background: #c40b3f;
+    transition: all 0.3s linear;
+  }
+  li {
+    padding: 20px;
+  }
+  
